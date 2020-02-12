@@ -1,0 +1,73 @@
+﻿
+.flex-container {
+    display: flex;
+    padding: 10% 10%; 
+}
+.flex-container div h4{
+    text-align: center; 
+}
+.flex-container div {
+        text-align: center;
+        align-items: baseline; 
+        padding-bottom: 20%;
+}
+    .flex-container div img {
+        height: auto;
+        width: 100%
+    }
+
+#bottom_page {
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    bottom: 0;
+    height: 20%; 
+}
+    #bottom_page div p {
+        text-align: center; 
+    }
+
+
+.main_div div{ 
+    padding:15px;
+    text-align:center;
+}
+#top_page {
+    padding: 15px;
+    font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+#top_page h1, h2, p {
+        font-family: sans-serif;
+        text-align: left;
+        font-style: italic;
+}
+
+.github_link a img {
+    height: 50%;
+    width: 60%;
+    align-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #top_page h1, h2, p{
+        text-align: center;
+    }
+    .flex-container  {
+        display: flex;
+        flex-flow: column;
+    }
+    .first_project {
+        order: 1;
+    }
+
+    .second_project {
+        order: 2;
+    }
+
+    .third_project {
+        order: 3;
+    }
+}
