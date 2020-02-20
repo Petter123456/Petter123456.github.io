@@ -55,12 +55,17 @@
     #top_page h1, h2, p{
         text-align: center;
     }
-    .flex-container  {
+    .flex-container {
         display: flex;
         flex-flow: column;
+        overflow: auto;
     }
+
     .first_project {
         order: 1;
+    }
+    div iframe{
+        width: 80%; 
     }
 
     .second_project {
